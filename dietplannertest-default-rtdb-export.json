@@ -1,0 +1,533 @@
+{
+  "meals": {
+    "jun": {
+      "1770252791161": {
+        "calories": "MKHhpqPnaIgO/Sa1OqC+7w==",
+        "carb": 55.6,
+        "date": "2026-02-05",
+        "fat": 32.7,
+        "items": "• Mixed Greens (70g lettuce & spinach) (x1)\n• Tomato Slices (70g) (x1)\n• Grilled Chicken Breast (100g) (x1)\n• Tofu (100g firm) (x1)\n• Boiled Egg (1 large ~50g) (x1)\n• Olive Oil (1 tbsp) (x1)\n• Brown Rice (100g cooked) (x2)",
+        "name": "ZJjYN0QQ90We2kBV7kPdYA==",
+        "protein": 59.5,
+        "raw_price": 19,
+        "total_price": "Total Price: $19.00"
+      },
+      "1770253074108": {
+        "calories": "30+0REeWCG8XUl9ZDsvlEw==",
+        "carb": 0,
+        "date": "2026-02-05",
+        "fat": 130,
+        "items": "• Garlic Butter Salmon (100g) (x10)",
+        "name": "ZJjYN0QQ90We2kBV7kPdYA==",
+        "protein": 220,
+        "raw_price": 60,
+        "total_price": "Total Price: $60.00"
+      }
+    },
+    "l": {
+      "1768532815556": {
+        "calories": "NKqJHL6SxyQlaiAeqnjKAQ==",
+        "date": "2026-01-16",
+        "items": "• Grilled Chicken Breast (100g) (x1)\n• Brown Rice (100g cooked) (x2)",
+        "name": "ZJjYN0QQ90We2kBV7kPdYA==",
+        "price": "Total Price: $10.00"
+      },
+      "1768930589783": {
+        "calories": "TvRTmqyRjqQm/S4hXPex4A==",
+        "carb": 44,
+        "date": "2026-01-21",
+        "fat": 6.5,
+        "items": "• Grilled Chicken Breast (100g) (x1)\n• Brown Rice (100g cooked) (x1)\n• Quinoa (100g cooked) (x1)",
+        "name": "ZJjYN0QQ90We2kBV7kPdYA==",
+        "protein": 37.7,
+        "raw_price": 10.5,
+        "total_price": "Total Price: $10.50"
+      },
+      "1768930641010": {
+        "calories": "4NZizKSi78FepImYdYP2VQ==",
+        "carb": 58.2,
+        "date": "2026-01-21",
+        "fat": 53.3,
+        "items": "• Broccoli (70g steamed) (x2)\n• Grilled Chicken Breast (100g) (x1)\n• Garlic Butter Salmon (100g) (x1)\n• Tofu (100g firm) (x1)\n• Avocado (50g) (x1)\n• Boiled Egg (1 large ~50g) (x1)\n• Olive Oil (1 tbsp) (x1)\n• Quinoa (100g cooked) (x1)\n• Sweet Potato (100g baked) (x1)",
+        "name": "ZJjYN0QQ90We2kBV7kPdYA==",
+        "protein": 84.7,
+        "raw_price": 27,
+        "total_price": "Total Price: $27.00"
+      },
+      "1768930683743": {
+        "calories": "zyp9ieildFAw3wbBHea3xA==",
+        "carb": 54.4,
+        "date": "2026-01-21",
+        "fat": 46,
+        "items": "• Broccoli (70g steamed) (x1)\n• Grilled Chicken Breast (100g) (x1)\n• Garlic Butter Salmon (100g) (x1)\n• Shrimp (100g boiled) (x1)\n• Tofu (100g firm) (x1)\n• Boiled Egg (1 large ~50g) (x1)\n• Olive Oil (1 tbsp) (x1)\n• Brown Rice (100g cooked) (x2)",
+        "name": "ZJjYN0QQ90We2kBV7kPdYA==",
+        "protein": 105.2,
+        "raw_price": 27.5,
+        "total_price": "Total Price: $27.50"
+      },
+      "1768930700000": {
+        "calories": "apWmetoqq6xKGGn6mK2NeQ==",
+        "carb": 21,
+        "date": "2026-01-21",
+        "fat": 2,
+        "items": "• Quinoa (100g cooked) (x1)",
+        "name": "ZJjYN0QQ90We2kBV7kPdYA==",
+        "protein": 4.1,
+        "raw_price": 3,
+        "total_price": "Total Price: $3.00"
+      },
+      "1768930714745": {
+        "calories": "IRn782RJLluezCpQqMRZaQ==",
+        "carb": 23,
+        "date": "2026-01-21",
+        "fat": 0.9,
+        "items": "• Brown Rice (100g cooked) (x1)",
+        "name": "ZJjYN0QQ90We2kBV7kPdYA==",
+        "protein": 2.6,
+        "raw_price": 2.5,
+        "total_price": "Total Price: $2.50"
+      }
+    },
+    "qwe": {
+      "1768532899942": {
+        "calories": "tHFLGVVdjTZS5zp5kZT1Lw==",
+        "date": "2026-01-16",
+        "items": "• Brown Rice (100g cooked) (x2)\n• Buckwheat Noodles (100g cooked) (x1)",
+        "name": "ZJjYN0QQ90We2kBV7kPdYA==",
+        "price": "Total Price: $8.00"
+      },
+      "1768532923428": {
+        "calories": "tHFLGVVdjTZS5zp5kZT1Lw==",
+        "date": "2026-01-16",
+        "items": "• Brown Rice (100g cooked) (x2)\n• Buckwheat Noodles (100g cooked) (x1)",
+        "name": "ZJjYN0QQ90We2kBV7kPdYA==",
+        "price": "Total Price: $8.00"
+      },
+      "1768534076542": {
+        "calories": "Q8SYy8cuyAwn2CjipUk+qQ==",
+        "date": "2026-01-16",
+        "items": "• Grilled Chicken Breast (100g) (x1)\n• Brown Rice (100g cooked) (x1)\n• Buckwheat Noodles (100g cooked) (x1)",
+        "name": "ZJjYN0QQ90We2kBV7kPdYA==",
+        "price": "Total Price: $10.50"
+      },
+      "1768903226357": {
+        "calories": "tHFLGVVdjTZS5zp5kZT1Lw==",
+        "date": "2026-01-20",
+        "items": "• Brown Rice (100g cooked) (x2)\n• Buckwheat Noodles (100g cooked) (x1)",
+        "name": "ZJjYN0QQ90We2kBV7kPdYA==",
+        "price": "Total Price: $8.00"
+      },
+      "1768926028346": {
+        "calories": "EC33uME95hoEiIrppYn7Dg==",
+        "date": "2026-01-21",
+        "items": "• Brown Rice (100g cooked) (x1)\n• Buckwheat Noodles (100g cooked) (x2)",
+        "name": "ZJjYN0QQ90We2kBV7kPdYA==",
+        "price": "Total Price: $8.50"
+      },
+      "1768928897677": {
+        "calories": "q/fWoemlqaCCDGtshVtu7g==",
+        "carb": 65,
+        "date": "2026-01-21",
+        "fat": 4.7,
+        "items": "• Grilled Chicken Breast (100g) (x1)\n• Brown Rice (100g cooked) (x1)\n• Buckwheat Noodles (100g cooked) (x2)",
+        "name": "ZJjYN0QQ90We2kBV7kPdYA==",
+        "protein": 41.2,
+        "raw_price": 13.5,
+        "total_price": "Total Price: $13.50"
+      },
+      "1768929524162": {
+        "calories": "MMgFV0SNDuX0hTbuxLPq6g==",
+        "carb": 59.4,
+        "date": "2026-01-21",
+        "fat": 46.3,
+        "items": "• Broccoli (70g steamed) (x1)\n• Tomato Slices (70g) (x1)\n• Garlic Butter Salmon (100g) (x1)\n• Tofu (100g firm) (x1)\n• Boiled Egg (1 large ~50g) (x1)\n• Honey Mustard Dressing (1 tbsp) (x1)\n• Olive Oil (1 tbsp) (x1)\n• Quinoa (100g cooked) (x2)",
+        "name": "ZJjYN0QQ90We2kBV7kPdYA==",
+        "protein": 53.8,
+        "raw_price": 22,
+        "total_price": "Total Price: $22.00"
+      },
+      "1768929593140": {
+        "calories": "ZeE8fCh40fVFWEjkzLJobA==",
+        "carb": 47,
+        "date": "2026-01-21",
+        "fat": 36.9,
+        "items": "• Garlic Butter Salmon (100g) (x2)\n• Tofu (100g firm) (x1)\n• Brown Rice (100g cooked) (x1)\n• Quinoa (100g cooked) (x1)",
+        "name": "ZJjYN0QQ90We2kBV7kPdYA==",
+        "protein": 65.7,
+        "raw_price": 20.5,
+        "total_price": "Total Price: $20.50"
+      },
+      "1768929603260": {
+        "calories": "A8MIoS5f6LRy7uRJI15c3Q==",
+        "carb": 21,
+        "date": "2026-01-21",
+        "fat": 0.1,
+        "items": "• Buckwheat Noodles (100g cooked) (x1)",
+        "name": "ZJjYN0QQ90We2kBV7kPdYA==",
+        "protein": 3.8,
+        "raw_price": 3,
+        "total_price": "Total Price: $3.00"
+      },
+      "1768929611804": {
+        "calories": "DinqkZKV9CKnn9x6DklCbw==",
+        "carb": 20,
+        "date": "2026-01-21",
+        "fat": 0.1,
+        "items": "• Sweet Potato (100g baked) (x1)",
+        "name": "ZJjYN0QQ90We2kBV7kPdYA==",
+        "protein": 1.6,
+        "raw_price": 2,
+        "total_price": "Total Price: $2.00"
+      },
+      "1768929619533": {
+        "calories": "NRR0JZiizUb/QyoLgRmRlg==",
+        "carb": 46,
+        "date": "2026-01-21",
+        "fat": 1.8,
+        "items": "• Brown Rice (100g cooked) (x2)",
+        "name": "ZJjYN0QQ90We2kBV7kPdYA==",
+        "protein": 5.2,
+        "raw_price": 5,
+        "total_price": "Total Price: $5.00"
+      },
+      "1768985856594": {
+        "calories": "A8MIoS5f6LRy7uRJI15c3Q==",
+        "carb": 21,
+        "date": "2026-01-21",
+        "fat": 0.1,
+        "items": "• Buckwheat Noodles (100g cooked) (x1)",
+        "name": "ZJjYN0QQ90We2kBV7kPdYA==",
+        "protein": 3.8,
+        "raw_price": 3,
+        "total_price": "Total Price: $3.00"
+      },
+      "1769064701073": {
+        "calories": "FuHpkxtqYoLsVv8w4Ks0zA==",
+        "carb": 39.8,
+        "date": "2026-01-22",
+        "fat": 14.8,
+        "items": "• Broccoli (70g steamed) (x1)\n• Tomato Slices (70g) (x1)\n• Grilled Chicken Breast (100g) (x1)\n• Tofu (100g firm) (x1)\n• Honey Mustard Dressing (1 tbsp) (x1)\n• Brown Rice (100g cooked) (x1)",
+        "name": "ZJjYN0QQ90We2kBV7kPdYA==",
+        "protein": 51.2,
+        "raw_price": 14.5,
+        "total_price": "Total Price: $14.50"
+      },
+      "1769064732014": {
+        "calories": "ICgcADMJVO0T3OxiNFa31g==",
+        "carb": 46,
+        "date": "2026-01-22",
+        "fat": 19.7,
+        "items": "• Grilled Chicken Breast (100g) (x1)\n• Shrimp (100g boiled) (x1)\n• Olive Oil (1 tbsp) (x1)\n• Brown Rice (100g cooked) (x2)",
+        "name": "ZJjYN0QQ90We2kBV7kPdYA==",
+        "protein": 60.2,
+        "raw_price": 15.5,
+        "total_price": "Total Price: $15.50"
+      },
+      "1769064779642": {
+        "calories": "ORwH8zrZmykunHtiyCG+Tw==",
+        "carb": 37.2,
+        "date": "2026-01-22",
+        "fat": 12.2,
+        "items": "• Mixed Greens (70g lettuce & spinach) (x2)\n• Shrimp (100g boiled) (x2)\n• Apple Cider Vinegar Dressing (1 tbsp) (x2)\n• Avocado (50g) (x1)\n• Honey Mustard Dressing (1 tbsp) (x1)\n• Quinoa (100g cooked) (x1)",
+        "name": "ZJjYN0QQ90We2kBV7kPdYA==",
+        "protein": 56.5,
+        "raw_price": 18,
+        "total_price": "Total Price: $18.00"
+      },
+      "1769064814212": {
+        "calories": "IRn782RJLluezCpQqMRZaQ==",
+        "carb": 23,
+        "date": "2026-01-22",
+        "fat": 0.9,
+        "items": "• Brown Rice (100g cooked) (x1)",
+        "name": "ZJjYN0QQ90We2kBV7kPdYA==",
+        "protein": 2.6,
+        "raw_price": 2.5,
+        "total_price": "Total Price: $2.50"
+      }
+    },
+    "zhijun": {
+      "1768987682613": {
+        "calories": "b1y3Rx2HG5EwnpQxDB33NQ==",
+        "carb": 54.6,
+        "date": "2026-01-21",
+        "fat": 18.2,
+        "items": "• Broccoli (70g steamed) (x1)\n• Tomato Slices (70g) (x1)\n• Grilled Chicken Breast (100g) (x1)\n• Shrimp (100g boiled) (x1)\n• Tofu (100g firm) (x1)\n• Apple Cider Vinegar Dressing (1 tbsp) (x2)\n• Boiled Egg (1 large ~50g) (x1)\n• Brown Rice (100g cooked) (x1)\n• Sweet Potato (100g baked) (x1)",
+        "name": "ZJjYN0QQ90We2kBV7kPdYA==",
+        "protein": 82.8,
+        "raw_price": 22,
+        "total_price": "Total Price: $22.00"
+      },
+      "1768987732674": {
+        "calories": "AbEQXO+fOCZugcfFbzjYyg==",
+        "carb": 67,
+        "date": "2026-01-21",
+        "fat": 23,
+        "items": "• Grilled Chicken Breast (100g) (x2)\n• Roast Beef (100g) (x2)\n• Brown Rice (100g cooked) (x2)\n• Quinoa (100g cooked) (x1)",
+        "name": "ZJjYN0QQ90We2kBV7kPdYA==",
+        "protein": 127.3,
+        "raw_price": 28,
+        "total_price": "Total Price: $28.00"
+      },
+      "1768987765616": {
+        "calories": "jer/gzl4tCdBjQiUO8qtyw==",
+        "carb": 69,
+        "date": "2026-01-21",
+        "fat": 2.7,
+        "items": "• Brown Rice (100g cooked) (x3)",
+        "name": "ZJjYN0QQ90We2kBV7kPdYA==",
+        "protein": 7.8,
+        "raw_price": 7.5,
+        "total_price": "Total Price: $7.50"
+      },
+      "1769067660632": {
+        "calories": "284I8SIMBKxlG7lWAOEfxg==",
+        "carb": 51.4,
+        "date": "2026-01-22",
+        "fat": 23.7,
+        "items": "• Broccoli (70g steamed) (x1)\n• Grilled Chicken Breast (100g) (x1)\n• Garlic Butter Salmon (100g) (x1)\n• Boiled Egg (1 large ~50g) (x1)\n• Brown Rice (100g cooked) (x2)",
+        "name": "ZJjYN0QQ90We2kBV7kPdYA==",
+        "protein": 66.2,
+        "raw_price": 19,
+        "total_price": "Total Price: $19.00"
+      },
+      "1770017233281": {
+        "calories": "14AM2io5jwqLb6PcB8lBUw==",
+        "carb": 0,
+        "date": "2026-02-02",
+        "fat": 7.2,
+        "items": "• Grilled Chicken Breast (100g) (x2)",
+        "name": "ZJjYN0QQ90We2kBV7kPdYA==",
+        "protein": 62,
+        "raw_price": 10,
+        "total_price": "Total Price: $10.00"
+      },
+      "1770017302520": {
+        "calories": "knZof8yVj90GUXBUVJjBCg==",
+        "carb": 51.6,
+        "date": "2026-02-02",
+        "fat": 42,
+        "items": "• Mixed Greens (70g lettuce & spinach) (x1)\n• Grilled Chicken Breast (100g) (x2)\n• Shrimp (100g boiled) (x1)\n• Tofu (100g firm) (x1)\n• Avocado (50g) (x1)\n• Boiled Egg (1 large ~50g) (x1)\n• Olive Oil (1 tbsp) (x1)\n• Buckwheat Noodles (100g cooked) (x1)\n• Sweet Potato (100g baked) (x1)",
+        "name": "ZJjYN0QQ90We2kBV7kPdYA==",
+        "protein": 115.1,
+        "raw_price": 28.5,
+        "total_price": "Total Price: $28.50"
+      },
+      "1770131859468": {
+        "calories": "A7pb0zGk0aCLpyq24cUGCg==",
+        "carb": 21,
+        "date": "2026-02-03",
+        "fat": 11.9,
+        "items": "• Grilled Chicken Breast (100g) (x1)\n• Roast Beef (100g) (x1)\n• Shrimp (100g boiled) (x1)\n• Quinoa (100g cooked) (x1)",
+        "name": "ZJjYN0QQ90We2kBV7kPdYA==",
+        "protein": 87.1,
+        "raw_price": 17,
+        "total_price": "Total Price: $17.00"
+      },
+      "1770132735226": {
+        "calories": "R/LhBklm/gicgkPRUIxhOg==",
+        "carb": 44,
+        "date": "2026-02-03",
+        "fat": 1,
+        "items": "• Brown Rice (100g cooked) (x1)\n• Buckwheat Noodles (100g cooked) (x1)",
+        "name": "ZJjYN0QQ90We2kBV7kPdYA==",
+        "protein": 6.4,
+        "raw_price": 5.5,
+        "total_price": "Total Price: $5.50"
+      },
+      "1770264429396": {
+        "calories": "mfaSD6KpN8eqf355IOMArw==",
+        "carb": 50.6,
+        "date": "2026-02-05",
+        "fat": 25.1,
+        "items": "• Mixed Greens (70g lettuce & spinach) (x1)\n• Grilled Chicken Breast (100g) (x1)\n• Tofu (100g firm) (x2)\n• Boiled Egg (1 large ~50g) (x1)\n• Buckwheat Noodles (100g cooked) (x1)\n• Sweet Potato (100g baked) (x1)",
+        "name": "ZJjYN0QQ90We2kBV7kPdYA==",
+        "protein": 74.1,
+        "raw_price": 19,
+        "total_price": "Total Price: $19.00"
+      },
+      "1770265357672": {
+        "calories": "Y4hb1DP3lfntyrIUmmF4XA==",
+        "carb": 36,
+        "date": "2026-02-05",
+        "fat": 27.8,
+        "items": "• Mixed Greens (70g lettuce & spinach) (x1)\n• Grilled Chicken Breast (100g) (x1)\n• Tofu (100g firm) (x2)\n• Avocado (50g) (x1)\n• Brown Rice (100g cooked) (x1)",
+        "name": "ZJjYN0QQ90We2kBV7kPdYA==",
+        "protein": 66.3,
+        "raw_price": 17,
+        "total_price": "Total Price: $17.00"
+      }
+    }
+  },
+  "products": {
+    "apple_cider_vinegar": {
+      "cal": 3,
+      "carb": 0.1,
+      "category": "extra",
+      "fat": 0,
+      "name": "Apple Cider Vinegar Dressing (1 tbsp)",
+      "price": 0.5,
+      "pro": 0
+    },
+    "avocado": {
+      "cal": 80,
+      "carb": 4,
+      "category": "extra",
+      "fat": 7,
+      "name": "Avocado (50g)",
+      "price": 2,
+      "pro": 1
+    },
+    "boiled_egg": {
+      "cal": 70,
+      "carb": 0.6,
+      "category": "extra",
+      "fat": 5,
+      "name": "Boiled Egg (1 large ~50g)",
+      "price": 1.5,
+      "pro": 6
+    },
+    "broccoli": {
+      "cal": 24,
+      "carb": 4.8,
+      "category": "veggie",
+      "fat": 0.3,
+      "name": "Broccoli (70g steamed)",
+      "price": 1.5,
+      "pro": 2
+    },
+    "brown_rice": {
+      "cal": 111,
+      "carb": 23,
+      "category": "base",
+      "fat": 0.9,
+      "name": "Brown Rice (100g cooked)",
+      "price": 2.5,
+      "pro": 2.6
+    },
+    "buckwheat_noodles": {
+      "cal": 99,
+      "carb": 21,
+      "category": "base",
+      "fat": 0.1,
+      "name": "Buckwheat Noodles (100g cooked)",
+      "price": 3,
+      "pro": 3.8
+    },
+    "chicken_breast": {
+      "cal": 165,
+      "carb": 0,
+      "category": "protein",
+      "fat": 3.6,
+      "name": "Grilled Chicken Breast (100g)",
+      "price": 5,
+      "pro": 31
+    },
+    "honey_mustard": {
+      "cal": 45,
+      "carb": 6,
+      "category": "extra",
+      "fat": 2,
+      "name": "Honey Mustard Dressing (1 tbsp)",
+      "price": 1,
+      "pro": 0
+    },
+    "mixed_greens": {
+      "cal": 17,
+      "carb": 3,
+      "category": "veggie",
+      "fat": 0.3,
+      "name": "Mixed Greens (70g lettuce & spinach)",
+      "price": 1.5,
+      "pro": 1.7
+    },
+    "olive_oil": {
+      "cal": 119,
+      "carb": 0,
+      "category": "extra",
+      "fat": 14,
+      "name": "Olive Oil (1 tbsp)",
+      "price": 1.5,
+      "pro": 0
+    },
+    "quinoa": {
+      "cal": 120,
+      "carb": 21,
+      "category": "base",
+      "fat": 2,
+      "name": "Quinoa (100g cooked)",
+      "price": 3,
+      "pro": 4.1
+    },
+    "roast_beef": {
+      "cal": 170,
+      "carb": 0,
+      "category": "protein",
+      "fat": 6,
+      "name": "Roast Beef (100g)",
+      "price": 5,
+      "pro": 28
+    },
+    "salmon": {
+      "cal": 206,
+      "carb": 0,
+      "category": "protein",
+      "fat": 13,
+      "name": "Garlic Butter Salmon (100g)",
+      "price": 6,
+      "pro": 22
+    },
+    "shrimp": {
+      "cal": 99,
+      "carb": 0,
+      "category": "protein",
+      "fat": 0.3,
+      "name": "Shrimp (100g boiled)",
+      "price": 4,
+      "pro": 24
+    },
+    "sweet_potato": {
+      "cal": 86,
+      "carb": 20,
+      "category": "base",
+      "fat": 0.1,
+      "name": "Sweet Potato (100g baked)",
+      "price": 2,
+      "pro": 1.6
+    },
+    "tofu": {
+      "cal": 144,
+      "carb": 3,
+      "category": "protein",
+      "fat": 8,
+      "name": "Tofu (100g firm)",
+      "price": 3,
+      "pro": 15
+    },
+    "tomato_slices": {
+      "cal": 13,
+      "carb": 3,
+      "category": "veggie",
+      "fat": 0,
+      "name": "Tomato Slices (70g)",
+      "price": 1.5,
+      "pro": 0.6
+    }
+  },
+  "users": {
+    "zhijun": {
+      "activityIndex": 2,
+      "age": "68/zhcvTfN9N6NG62UVAGg==",
+      "cardNumber": "WXCIpkztJ/qc8M/O72wuRrru38kkZ/pMb44QKiKhpkU=",
+      "cvv": "srwfzn5PzJQ9Gzx8a0HFgA==",
+      "dailyGoal": 2367,
+      "expiry": "ibyJXmm2twxtVjjdJYfxoQ==",
+      "gender": "Male",
+      "height": "yCy4//Xv6ecz0zNyxoNUYQ==",
+      "password": "ifin5PBaL7Z8qRU4qqVlPQ==",
+      "targetIndex": 1,
+      "username": "zhijun",
+      "weight": "YC702dphFS6K56L91W/FIA=="
+    }
+  }
+}
