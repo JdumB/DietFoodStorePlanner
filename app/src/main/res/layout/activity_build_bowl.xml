@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4F7F6">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/layout_checkout_bar"
+        android:clipToPadding="false"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Build Your Bowl"
+                android:textColor="#212121"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                android:text="Customize your nutrition"
+                android:textColor="#757575" />
+
+            <TextView
+                style="@style/CategoryHeader"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Choose Bases" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvBase"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp" />
+
+            <TextView
+                style="@style/CategoryHeader"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:text="2. Add Proteins" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvProtein"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp" />
+
+            <TextView
+                style="@style/CategoryHeader"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:text="3. Mix in Veggies" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvVeggie"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp" />
+
+            <TextView
+                style="@style/CategoryHeader"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:text="4. Healthy Extras" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvExtra"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp" />
+
+            <View android:layout_width="match_parent" android:layout_height="40dp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/layout_checkout_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/bottom_navigation"
+        android:background="@drawable/top_shadow_bg"
+        android:elevation="16dp"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:animateLayoutChanges="true">
+
+        <RelativeLayout
+            android:id="@+id/rlToggleCart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="8dp">
+
+            <TextView
+                android:id="@+id/tvSelectionSummary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View selected items"
+                android:textColor="#4CAF50"
+                android:textSize="13sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/ivExpandArrow"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_alignParentEnd="true"
+                android:src="@android:drawable/arrow_up_float"
+                app:tint="#4CAF50" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tvDetailedList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:text="No items selected"
+            android:textColor="#757575"
+            android:textSize="12sp"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <TextView android:id="@+id/tvTotalPro" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="P: 0g" android:textColor="#E91E63" android:textSize="13sp" android:textStyle="bold" />
+            <TextView android:id="@+id/tvTotalCarb" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="C: 0g" android:textColor="#2196F3" android:textSize="13sp" android:textStyle="bold" />
+            <TextView android:id="@+id/tvTotalFat" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="F: 0g" android:textColor="#FF9800" android:textSize="13sp" android:textStyle="bold" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvLiveTotal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0 kcal"
+                    android:textColor="#212121"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvTotalPrice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Total Price: $0.00"
+                    android:textColor="#4CAF50"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnSubmitBowl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:backgroundTint="#4CAF50"
+                android:paddingHorizontal="24dp"
+                android:text="Confirm"
+                android:textAllCaps="false"
+                app:cornerRadius="8dp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#FFFFFF"
+        app:elevation="8dp"
+        app:itemIconTint="#4CAF50"
+        app:itemTextColor="#333333"
+        app:labelVisibilityMode="labeled"
+        app:menu="@menu/bottom_nav_menu" />
+
+</RelativeLayout>

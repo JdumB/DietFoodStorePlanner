@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bowl Details"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#333333" />
+
+    <View
+        android:layout_width="60dp"
+        android:layout_height="4dp"
+        android:layout_marginTop="8dp"
+        android:background="#4CAF50" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="24dp"
+        android:weightSum="3">
+
+        <TextView
+            android:id="@+id/tvProtein"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Protein\n0g"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#E91E63" />
+
+        <TextView
+            android:id="@+id/tvFats"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Fats\n0g"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#FF9800" />
+
+        <TextView
+            android:id="@+id/tvCarbs"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Carbs\n0g"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#2196F3" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Ingredients"
+        android:textSize="14sp"
+        android:textAllCaps="true"
+        android:textColor="#9E9E9E" />
+
+    <TextView
+        android:id="@+id/tvDetailItems"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Items..."
+        android:textSize="18sp"
+        android:lineSpacingExtra="4dp"
+        android:textColor="#424242" />
+
+    <TextView
+        android:id="@+id/tvDetailCals"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="0 kcal"
+        android:textSize="16sp"
+        android:textColor="#757575" />
+
+    <TextView
+        android:id="@+id/tvDetailPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="$0.00"
+        android:textColor="#4CAF50"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Close"
+        android:backgroundTint="#F5F5F5"
+        android:textColor="#333333" />
+
+</LinearLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">DietPlanner</string>
+
+    <string-array name="activity_levels">
+        <item>Sedentary (Office job)</item>
+        <item>Lightly Active (Exercise 1-3 days/week)</item>
+        <item>Moderately Active (Exercise 3-5 days/week)</item>
+        <item>Very Active (Hard exercise 6-7 days/week)</item>
+    </string-array>
+</resources>

@@ -1,0 +1,35 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5"
+    android:padding="24dp">
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Almost there!" android:textSize="26sp" android:textStyle="bold" />
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Step 2: Customize your plan" android:textColor="#4CAF50" android:layout_marginBottom="20dp" />
+
+        <EditText android:id="@+id/onAge" android:layout_width="match_parent" android:layout_height="55dp"
+            android:hint="Age" android:inputType="number" android:layout_marginTop="10dp"/>
+
+        <Spinner android:id="@+id/spnGender" android:layout_width="match_parent" android:layout_height="55dp" android:layout_marginTop="10dp"/>
+
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+            <EditText android:id="@+id/onHeight" android:layout_width="0dp" android:layout_weight="1" android:layout_height="55dp" android:hint="Height (cm)" android:inputType="number" />
+            <EditText android:id="@+id/onWeight" android:layout_width="0dp" android:layout_weight="1" android:layout_height="55dp" android:hint="Weight (kg)" android:inputType="number" />
+        </LinearLayout>
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Activity Level" android:textStyle="bold" android:layout_marginTop="20dp"/>
+        <Spinner android:id="@+id/spnActivity" android:layout_width="match_parent" android:layout_height="55dp" />
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Your Goal" android:textStyle="bold" android:layout_marginTop="20dp"/>
+        <Spinner android:id="@+id/spnTarget" android:layout_width="match_parent" android:layout_height="55dp" />
+
+        <Button android:id="@+id/btnFinishOnboarding" android:layout_width="match_parent" android:layout_height="60dp"
+            android:text="Calculate My Goal" android:backgroundTint="#4CAF50" android:layout_marginTop="30dp" />
+
+    </LinearLayout>
+</ScrollView>

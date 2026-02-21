@@ -1,0 +1,59 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Join the Planner"
+            android:textColor="#212121"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Step 1: Secure your account"
+            android:textColor="#4CAF50"
+            android:textSize="14sp"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Account Credentials" android:textStyle="bold" android:layout_marginTop="10dp" android:textColor="#212121"/>
+
+        <EditText android:id="@+id/regUser" android:layout_width="match_parent" android:layout_height="55dp"
+            android:hint="Username" android:background="@android:drawable/editbox_background" android:paddingLeft="15dp"/>
+
+        <EditText android:id="@+id/regPass" android:layout_width="match_parent" android:layout_height="55dp"
+            android:layout_marginTop="10dp" android:hint="Password" android:inputType="textPassword"
+            android:background="@android:drawable/editbox_background" android:paddingLeft="15dp"/>
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Payment Details (Encrypted)" android:textStyle="bold" android:layout_marginTop="30dp" android:textColor="#212121"/>
+
+        <EditText android:id="@+id/regCard" android:layout_width="match_parent" android:layout_height="55dp"
+            android:layout_marginTop="5dp" android:hint="0000 0000 0000 0000" android:inputType="phone"
+            android:maxLength="19" android:background="@android:drawable/editbox_background" android:paddingLeft="15dp"/>
+
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+            <EditText android:id="@+id/regExpiry" android:layout_width="0dp" android:layout_weight="1" android:layout_height="55dp"
+                android:layout_marginTop="10dp" android:hint="MM/YY" android:inputType="number"
+                android:maxLength="5" android:background="@android:drawable/editbox_background" android:paddingLeft="15dp"/>
+
+            <EditText android:id="@+id/regCVV" android:layout_width="0dp" android:layout_weight="1" android:layout_height="55dp"
+                android:layout_marginTop="10dp" android:hint="CVV" android:inputType="numberPassword"
+                android:maxLength="3" android:background="@android:drawable/editbox_background" android:paddingLeft="15dp"/>
+        </LinearLayout>
+
+        <Button android:id="@+id/btnRegisterSubmit" android:layout_width="match_parent" android:layout_height="60dp"
+            android:text="Next: Set Health Goals" android:backgroundTint="#4CAF50" android:layout_marginTop="40dp" />
+
+    </LinearLayout>
+</ScrollView>

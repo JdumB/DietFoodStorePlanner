@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "884816408678",
+    "firebase_url": "https://dietplannertest-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "dietplannertest",
+    "storage_bucket": "dietplannertest.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:884816408678:android:f866ddac733f925ba53da7",
+        "android_client_info": {
+          "package_name": "com.example.dietplanner"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLQ1i3uXe6NwRNgNyz5MRz4c7TK4ZQMdY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

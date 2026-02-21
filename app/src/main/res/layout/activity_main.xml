@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="#FFFFFF">
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@android:drawable/ic_lock_lock"
+        android:tint="#4CAF50"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Welcome to &#10;Diet Food Store Planner"
+        android:textSize="24sp"
+        android:textColor="#212121"
+        android:textStyle="bold" />
+
+    <EditText android:id="@+id/etUsername"
+        android:layout_width="match_parent" android:layout_height="55dp"
+        android:layout_marginTop="30dp" android:hint="Username"
+        android:background="@android:drawable/editbox_background" android:paddingLeft="15dp"/>
+
+    <EditText android:id="@+id/etPassword"
+        android:layout_width="match_parent" android:layout_height="55dp"
+        android:layout_marginTop="12dp" android:hint="Password"
+        android:inputType="textPassword"
+        android:background="@android:drawable/editbox_background" android:paddingLeft="15dp"/>
+
+    <Button android:id="@+id/btnLogin"
+        android:layout_width="match_parent" android:layout_height="55dp"
+        android:layout_marginTop="24dp" android:text="Login"
+        android:backgroundTint="#4CAF50" />
+
+    <Button android:id="@+id/btnFingerprint"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="10dp"
+        android:text="Use Fingerprint"
+        android:textColor="#4CAF50"
+        android:backgroundTint="#FFFFFF"
+        android:strokeColor="#4CAF50"
+        android:strokeWidth="5" />
+
+    <TextView android:id="@+id/btnGoToRegister"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_marginTop="20dp" android:text="No account? Register here"
+        android:textColor="#4CAF50" android:textStyle="bold" />
+
+</LinearLayout>
