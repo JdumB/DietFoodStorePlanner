@@ -1,6 +1,4 @@
-======================================================
 Diet Food Store Planner
-======================================================
 
 1. SOURCE CODE ACCESS
 The latest source code for this project is hosted on GitHub. 
